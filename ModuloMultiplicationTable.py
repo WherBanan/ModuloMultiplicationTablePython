@@ -16,5 +16,5 @@ for r in range(1, Z+1):
         elif c == 1:
             GridMaker(r-1, r, c, "grey50")
         else:
-            GridMaker(((r-1)*(c-1)) % Z, r, c, "grey50")
+            GridMaker(((r-1)*(c-1)) % Z, r, c, "white")
 root.mainloop()
